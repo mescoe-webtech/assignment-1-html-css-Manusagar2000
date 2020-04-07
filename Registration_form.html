@@ -1,0 +1,80 @@
+<html>
+<head><h1 align="center" > REGISTRATION FORM</h1>
+<title></title>
+</head>
+
+<style>
+
+    body{
+        background: url('back.jpg');
+        
+    }
+
+h1{
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    }
+
+form{
+    border-style: dotted;
+    border-color: brown;
+    border-radius: 2em;
+    margin-right: 500;
+    margin-left: 500;
+    color: darkslateblue;
+    background-color: whitesmoke;
+    text-align: center;
+    
+}
+
+.b{
+    background-color: yellowgreen;
+    color: white;
+    width: 220;
+    height: 30;
+    margin-left: 0;
+}
+
+.a{
+    width: 300;
+    height: 30;
+}
+
+h4{
+    font-style: oblique;
+    color: deeppink;
+}
+</style>
+
+<body>
+<form align="center" action=" ">
+   <h4> First Name:<br><input  class=a type = "text" name="Firstname" placeholder="                    Enter your Firstname" required></h4>
+
+   <h4> Last Name:<br> <input class=a type ="text" name="Lastname" placeholder="                    Enter your Lastname" required></h4>
+
+   <h4> Qualification:<br> <input class=a type ="text" name="Qualification" placeholder="                   Enter your Qualification" required></h4>
+
+   
+
+    <h4>  Number:<br> <input class=a type ="number" name="Number" placeholder="                       Enter your number" required></h4>
+
+    <h4>  Email ID:<br> <input class=a type ="email" name="Email ID" placeholder="                     Enter your E-mail id" required></h4>
+
+    <h4> Gender:<br><br> <input type ="radio" name="Gender" value="male" checked>male
+    <input type ="radio" name="Gender" value="female" checked>female</h4>
+
+    <h4>   Date of Admission:<br> <input type ="date" name="Date of admission"></h4>
+
+    <h4>  Branch:</h4>
+    <Select name="Branch">
+    <option>Comp</option>
+    <option>entc</option>
+    <option>mech</option>
+    </Select><br><br>
+
+
+    <input  class=b type="button" value="Submit"><br><br>
+
+</form>
+</body>
+</html>
